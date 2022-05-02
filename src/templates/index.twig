@@ -1,0 +1,24 @@
+{% extends "_layouts/_generic_page_layout.twig" %}
+
+{% block headLinks %}
+	{{ parent() }}
+	<link rel="amphtml" href="/amp">
+{% endblock headLinks %}
+
+{% block content %}
+	<section class="p-3">
+		<h1>content</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aperiam impedit mollitia quo repellat hic doloremque dolores id voluptatibus est!</p>
+	</section>
+{% endblock %}
+
+{% block subcontent %}
+	<section class="bg-purple-400 p-3">
+		<h2 class="">subcontent</h2>
+	</section>
+{% endblock %}
+
+{# -- Any JavaScript that should be included before </body> -- #}
+{% block bodyJs %}
+	{{ parent() }}
+{% endblock bodyJs %}
