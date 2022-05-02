@@ -11,13 +11,13 @@ This tool requires Node v16 (I recommend using [NVM](https://github.com/nvm-sh/n
 1. Copy this repo into a new project folder:
 
 ```bash
-npx degit dative/dative-frontend-mix new-project
+git clone https://github.com/jozemaria/dative-project.git
 ```
 
 2. Install the dependencies:
 
 ```bash
-cd new-project && npm install
+npm install
 ```
 
 ### Commands
